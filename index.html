@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="author" content="Eduardo Hernand" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Ratio - Aspect Ratio Calculator</title>
+</head>
+<body>
+  <main>
+    <h1>The Ratio</h1>
+    <p>Upload your image or write the width and height in pixels to calculate aspect ratio.</p>
+
+    <label for="input">Upload Image</label>
+    <input class="input" type="file" accept="image/jpg, image/jpeg, image/png" id="upload" />
+    <img src="" id="outputImg" width="300" />
+
+    <hr>
+
+    <label for="width">Width</label>
+    <input type="number" placeholder="pixels" id="width" />
+    <label for="height">Height</label>
+    <input type="number" placeholder="pixels" id="height" />
+
+    <h2>Aspect Ratio:</h2>
+    <p id="result"></p>
+  </main>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
